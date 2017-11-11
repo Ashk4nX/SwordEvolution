@@ -19,6 +19,7 @@ public class DragControl : MonoBehaviour {
 		Vector3 cursorPoint = new Vector3 (Input.mousePosition.x, Input.mousePosition.y, ScreenPoint.z);
 		Vector3 cursorPosition = Camera.main.ScreenToWorldPoint (cursorPoint) + Offset;
 		gameObject.transform.position = cursorPosition;
+
 	
 	}
 
